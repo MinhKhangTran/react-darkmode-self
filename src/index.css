@@ -1,0 +1,29 @@
+:root {
+  --clr-bg: #fff;
+  --clr-font: #444;
+  --clr-primary: #bada55;
+}
+
+.light-theme {
+  --clr-bg: #fff;
+  --clr-font: #444;
+  --clr-primary: #bada55;
+}
+.dark-theme {
+  --clr-bg: #444;
+  --clr-font: #fff;
+  --clr-primary: #bada10;
+}
+body {
+  background: var(--clr-bg);
+  color: var(--clr-font);
+  transition: all 0.3s ease-in-out;
+}
+
+.titel {
+  color: var(--clr-primary);
+}
+button {
+  background: var(--clr-primary);
+  color: var(--clr-font);
+}
